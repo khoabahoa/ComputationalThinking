@@ -10,6 +10,6 @@ package menu;
  * @author ADMIN
  */
 public class KoiMenu {
-    System.out.println();
+    System.out.println("lk");
             
 }
