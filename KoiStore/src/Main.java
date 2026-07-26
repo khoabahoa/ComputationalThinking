@@ -62,9 +62,28 @@ public class Main {
 
     /** A little starter data so the menus have something to work with right away. */
     private static void seedSampleData(KoiService koiService, CustomerService customerService) {
-        koiService.add(new KoiFish("F001", "Kohaku Tanaka", "Japan", "Red-White", 15000000, "available"));
-        koiService.add(new KoiFish("F002", "Showa Ginrin", "Japan", "Black-Red-White", 22000000, "available"));
-        customerService.add(new Customer("C001", "Nguyen Van A", "0901234567", "a@gmail.com"));
-        customerService.add(new Customer("C002", "Tran Thi Bich", "0912345678", "bich@gmail.com"));
-    }
+    // ── 10 KoiFish ────────────────────────────────────────────────────────────
+    koiService.add(new KoiFish("F001", "Kohaku Tanaka",    "Japan",       "Red-White",         15000000, "available"));
+    koiService.add(new KoiFish("F002", "Showa Ginrin",     "Japan",       "Black-Red-White",   22000000, "available"));
+    koiService.add(new KoiFish("F003", "Ogon Silver",      "Germany",     "Silver",            18000000, "available"));
+    koiService.add(new KoiFish("F004", "Bekko Shiro",      "Japan",       "White-Black",        9500000, "available"));
+    koiService.add(new KoiFish("F005", "Asagi Nishikigoi", "Japan",       "Blue-Red",          31000000, "available"));
+    koiService.add(new KoiFish("F006", "Utsuri Shiro",     "Japan",       "Black-White",       27500000, "available"));
+    koiService.add(new KoiFish("F007", "Koromo Ai",        "Japan",       "Blue-Red-White",    19800000, "available"));
+    koiService.add(new KoiFish("F008", "Chagoi Green",     "China",       "Olive-Green",       12000000, "available"));
+    koiService.add(new KoiFish("F009", "Yamabuki Ogon",    "South Korea", "Golden-Yellow",     24000000, "available"));
+    koiService.add(new KoiFish("F010", "Tancho Kohaku",    "Japan",       "White-Red-Crown",   35000000, "available"));
+
+    // ── 10 Customers ──────────────────────────────────────────────────────────
+    customerService.add(new Customer("C001", "Nguyen Van An",    "0901234567", "an@gmail.com"));
+    customerService.add(new Customer("C002", "Tran Thi Bich",    "0912345678", "bich@gmail.com"));
+    customerService.add(new Customer("C003", "Le Hoang Nam",     "0923456789", "nam@gmail.com"));
+    customerService.add(new Customer("C004", "Pham Minh Quan",   "0934567890", "quan@gmail.com"));
+    customerService.add(new Customer("C005", "Vo Thi Lan",       "0945678901", "lan@gmail.com"));
+    customerService.add(new Customer("C006", "Dang Van Duc",     "0956789012", "duc@gmail.com"));
+    customerService.add(new Customer("C007", "Nguyen Thi Mai",   "0967890123", "mai@gmail.com"));
+    customerService.add(new Customer("C008", "Hoang Van Khanh",  "0978901234", "khanh@gmail.com"));
+    customerService.add(new Customer("C009", "Bui Thi Thu",      "0989012345", "thu@gmail.com"));
+    customerService.add(new Customer("C010", "Tran Van Phuc",    "0990123456", "phuc@gmail.com"));
+}
 }
